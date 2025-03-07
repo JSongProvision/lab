@@ -1,0 +1,35 @@
+:root {
+
+    --cannoli-cream: #f2f1e2;
+    
+    --cream-tan: #e4c6b6;
+    
+    --safari: #bba991;
+    
+    --sirocco: #c39c89;
+    
+    --mocha-mousse: #a57964;
+    
+    --chanterelle: #a38676;
+    
+    --baltic-amber: #8b655a;
+    
+    --chocolate-martini: #56453e;
+    
+    }
+
+body {
+    margin: 0;
+    height:100vh;
+    background-image: linear-gradient(to right, var(--cannoli-cream), var(--cannoli-cream) 97%, var(--baltic-amber) 98%, var(--chocolate-martini) 99%);
+
+    /* }What I learned: First of all AI is hot shit and I spent 2 hours chasing a dream that doesn't exist
+ I was tring to find a way to keep my css variables that represent colors as hex values but, I wanted to
+ use them in a gradient and set opacity. Gemini kept telling me I could do that with the rgb() css function
+ but it was clear this wasn't working and no matter how many times I tried to get it to give me anothers
+ solution, it kept pointing me back at this function. I confirmed thatyou CAN'T use hex values in the rgb
+ function, and after a lot research I still haven't figured out how to do what I want.
+ 
+ What I do know is that you can't use hex color values in the rgb() function and that was a waste of my life.*/
+
+}
