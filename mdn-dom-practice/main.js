@@ -14,3 +14,5 @@ const linkPara = document.querySelector("p");
 linkPara.appendChild(text);
 
 sect.appendChild(linkPara);
+
+para.setAttribute("class", "highlight");
